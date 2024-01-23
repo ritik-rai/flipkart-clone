@@ -1,0 +1,68 @@
+.header{
+    display: flex;
+    background: white;
+    height: 66.66px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.left-section{
+    margin-left: 20px;
+}
+.middle-section{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 500px;
+}
+.search-icon-div{
+    background: #f0f5ff;
+    height: 37px;
+    width: 45px;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-icon{
+    width: 25px;
+}
+.search{
+    flex: 1;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+    background-color: #f0f5ff;
+    margin-left: -10px;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.search:focus{
+    outline: none;
+}
+.search::placeholder{
+    font-size: 17px;
+}
+.right-section{
+    width: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.login, .cart, .seller{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span{
+    margin-left: 7px;
+}
+.flipkart:hover, .search-icon-div:hover, .login:hover, .cart:hover, .seller:hover, .dot:hover{
+    cursor: pointer;
+}

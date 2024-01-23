@@ -1,0 +1,65 @@
+.products-section{
+    display: flex;
+    background-color: white;
+    margin: 8px 16px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    height: 140px;
+}
+.products-section:hover{
+    cursor: pointer;
+}
+.products{
+    padding: 12px 24px;
+}
+.proimg{
+    height: 65px;
+}
+.proimg-text{
+    font-weight: 600;
+    font-size: 13px;
+}
+.best-of-electronics{
+    background-color: white;
+    margin: 16px 16px;
+    padding: 10px 20px;
+}
+.electronics{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+.best-of-electronics:hover{
+    cursor: pointer;
+}
+.electronics-items{
+    height: 120px;
+    margin-bottom: 20px;
+    transition: transform 0.1s ease-in-out;
+}
+.electronics-items:hover{
+    transform: scale(1.1);
+}
+h3{
+    margin-bottom: 40px;
+}
+.electronics-grid{
+    height: 200px;
+    width: 180px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px; 
+    padding-top: 40px; 
+}
+.electronics-items-name{
+    color: #424242;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.electronics-items-price{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
